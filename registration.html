@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title> 
+  </head>
+  <body>
+    <img src="images/logo-white-removebg-preview.png" width="10" height="10" class="center">
+    <form action="">
+        <div class="container">
+          <p>Kindly fill in this form to register.</p>
+          <label for="username"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            name="username"
+            id="username"
+            required
+          />
+    
+          <label for="email"><b>Email</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+    
+          <label for="pwd"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="pwd"
+            id="pwd"
+            required
+          />
+    
+          <label for="pwd-repeat"><b>Confirm Password</b></label>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="pwd-repeat"
+            id="pwd-repeat"
+            required
+          />
+    
+            <button type="submit" onclick="document.location='login.html'">Register</button>
+        </div>
+    
+        <div>
+          <p>Already have an account? <a href="login.html">Log in</a>.</p>
+        </div>
+      </form>
+  </body>
+</html>
+
+<style>
+    form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+h1,p{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+    form {
+        width:35rem;
+    margin: auto;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+    }
+.container 
+{
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+}
+h1, p 
+{
+        text-align: center;
+}
+    input {
+        width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+    
+input {
+  margin: 0.25em 0em 1em 0em;
+  outline: none;
+  padding: 0.5em;
+  border: none;
+  background-color: rgb(225, 225, 225);
+  border-radius: 0.25em;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  padding: 0.75em;
+  border: none;
+  outline: none;
+  background-color: #BEF61D;
+  color: rgb(0, 0, 0);
+  border-radius: 0.25em;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+</style>

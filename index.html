@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FindMyGroove/Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+
+    <body >
+        <nav class="flex-div">
+            <div class="nav-left flex-div"><img class="logo" src="images/logo-white-removebg-preview.png" height="100px" width="100 px">
+            </div>
+            
+            <div class="nav-middle flex-div">
+                <div class="search flex-div">
+                    <input type="text" placeholder="Search for your groove" name="search">
+                    <img class="mic" src="images/800px-Vector_search_icon.svg.png" height="20px" width="20 px">
+                </div>
+                    
+            </div>
+            
+            
+            <div class="nav-right flex-div">
+                <select class="drop" name="City" id="City">
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai" selected>Mumbai</option>
+                  </select>
+                <button class="logbt" onclick="document.location='login.html'">Login</button>
+                <button class="logbt" onclick="document.location='registration.html'">Sign Up</button>
+                  </div>    
+
+        </nav>
+
+        <div id = "rib">
+        <div id="NavBar">
+            <a href="index.html">Home</a>
+            <a href="artist.html">Artist</a>
+            <a href="#section3">Genre</a>
+            <a href="#section3">Stream</a>
+        </div>
+        </div>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><a href="concert.html" target="_blank"><img src="images/ban1.png"> </a></div>
+                  <div class="swiper-slide"><img src="images/ban2.jpeg"></div>
+                  <div class="swiper-slide"><img src="images/ban3.png"></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                
+              </div>
+
+              <section class="product"> 
+                <h2 class="product-category" style="font-weight: 600;">Top Picks</h2>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="product-image1">
+                           <a href="concert.html" target="_blank"> <img src="images/e1.png" class="product-thumb" alt=""> </a>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Sunburn</h2>
+                            <p class="product-short-description">Bangalore | 13 Dec</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/e3.png" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Arjit Singh</h2>
+                            <p class="product-short-description">Delhi | 13 Dec</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/e2.png" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Boyce Avenue</h2>
+                            <p class="product-short-description">Chennai | 23 Dec</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/e4.png" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Road to Lolla</h2>
+                            <p class="product-short-description">Mumbai | 15 Dec</p>
+                        </div>
+                    </div>
+                      
+                </div>
+            </section>
+
+            <section class="product"> 
+                <h2 class="product-category" style="font-weight: 600;">Music Festivals</h2>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/v3.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Lost Lands</h2>
+                            <p class="product-short-description">Dubstep | 9.3/10</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/v2.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Tommorow Land</h2>
+                            <p class="product-short-description">Progressive,Future | 8.5/10</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <a href="concert.html" target="_blank"> <img src="images/v1.jpeg" class="product-thumb" alt=""> </a>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Sunburn</h2>
+                            <p class="product-short-description">Electro | 8.1/10</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/v4.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Lollapalooza</h2>
+                            <p class="product-short-description">Futre,Indie | 9.1/10</p>
+                        </div>
+                    </div>
+                      
+                </div>
+            </section>
+
+            <section class="product"> 
+                <h2 class="product-category" style="font-weight: 600;">Reccomended Artists</h2>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <a href="artist.html" target="_blank"> <img src="images/r1.jpeg" class="product-thumb" alt=""> </a>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Sullaivan King</h2>
+                            <p class="product-short-description">Rock n Riddim | 9.3/10</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/r2.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Virtual Riot</h2>
+                            <p class="product-short-description">Wonkstep | 9.5/10</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/r3.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Yellow Claw</h2>
+                            <p class="product-short-description">Hard Trap | 9.1/10</p>
+                        </div>
+                    </div>
+        
+                    <div class="product-card">
+                        <div class="product-image1">
+                            <img src="images/r4.jpeg" class="product-thumb" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Gryffin</h2>
+                            <p class="product-short-description">Deep House | 9.1/10</p>
+                        </div>
+                    </div>
+                      
+                </div>
+            </section>
+
+
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay:{
+                    delay : 3000,
+                    disableOnInteraction: false,
+                },
+ 
+            loop: true, 
+            pagination: {
+            el: '.swiper-pagination',
+            clickalbe: true,
+             },
+
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+});
+        </script>
+        </body>
+
+</html>
+

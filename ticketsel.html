@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FindMyGroove/concert</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+
+    <body>
+        <nav class="flex-div">
+            <div class="nav-left flex-div"><img class="logo" src="images/logo-white-removebg-preview.png" height="100px" width="100 px">
+            </div>
+            
+            <div class="nav-middle flex-div">
+                <div class="search flex-div">
+                    <input type="text" placeholder="Search for your groove" name="search">
+                    <img class="mic" src="images/800px-Vector_search_icon.svg.png" height="20px" width="20 px">
+                </div>
+                    
+            </div>
+            
+            
+            <div class="nav-right flex-div">
+                <select class="drop" name="City" id="City">
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai" selected>Mumbai</option>
+                  </select>
+                <button class="logbt" onclick="document.location='login.html'">Login</button>
+                <button class="logbt" onclick="document.location='registration.html'">Sign Up</button>
+                  </div>    
+
+        </nav>
+        <div id = "rib">
+        <div id="NavBar">
+            <a href="index.html">Home</a>
+            <a href="artist.html">Artist</a>
+            <a href="#section3">Genre</a>
+            <a href="#section3">Stream</a>
+        
+        </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="concert">
+            <div sclass="concert-left">
+                <img src="images/ban3.png" height="400px" width="100%">
+            </div>
+            <div class="concert-ri">
+                <div class="cn" ><h1>Sunburn</h1></div>
+                <div class="cn"><h2>Electro</h2></div>
+                <div class="cn"><h2>Goa</h2></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <h2 style="margin-left: 15px ;"><b>DATES</b></h2>
+
+        <div class="date">
+            <span>
+            <input type="checkbox" id="date1"/>
+            <label for="date1"> 28th December 2022 </label>
+            </span>
+            <span>WED</span>
+            <span>2PM ONWARDS</span>
+            <span>Vegator, Goa</span>
+        </div>
+
+        <div class="date">
+            <span>
+            <input type="checkbox" id="date2"/>
+            <label for="date2"> 29th December 2022</label>
+            </span>
+            <span>THU</span>
+            <span>2PM ONWARDS</span>
+            <span>Vegator, Goa</span>
+        </div>
+
+        <div class="date">
+            <span>
+            <input type="checkbox" id="date3"/>
+            <label for="date3"> 30th December 2022</label>
+            </span>
+            <span>FRI</span>
+            <span>2PM ONWARDS</span>
+            <span>Vegator, Goa</span>
+        </div>
+
+        <br>
+        <br>
+
+        <h2 style="margin-left: 15px ;"><b>TICKET TYPE</b></h2>
+        <br>
+
+        <select style="margin-left: 15px ; margin-bottom: 15px;" class="drop1" name="Date" id="Date">
+            <option value="1st">28th December </option>
+            <option value="2nd">29th December </option>
+            <option value="3rd">30th December </option>
+            
+          </select>
+
+        <div class="tix">
+            <span class="rad">
+            <input type="radio" id="tix1"/>
+            <label for="tix1"> GA </label>
+            </span>
+            <span class="pri">Rs. 1000</span>
+        </div>
+
+        <div class="tix">
+            <span class="rad">
+            <input type="radio" id="tix2"/>
+            <label for="tix2"> VIP </label>
+            </span>
+            <span class="pri">Rs. 2000</span>
+        </div>
+
+        <div class="tix">
+            <span class="rad">
+            <input type="radio" id="tix3"/>
+            <label for="tix3"> FANPIT </label>
+            </span>
+            <span class="pri">Rs. 3000</span>
+        </div>
+
+        <div class="tix">
+            <span class="rad">
+            <input type="radio" id="tix4"/>
+            <label for="tix4"> ONSTAGE </label>
+            </span>
+            <span class="pri">Rs. 4000</span>
+        </div>
+
+        <div class="tix">
+            <span class="rad">
+            <input  type="radio" id="tix5"/>
+            <label for="tix5"> VIP+ </label>
+            </span>
+            <span class="pri">Rs. 5000</span>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="but">
+            <span >
+            <button class="cbt" onclick="document.location='concert.html'">CANCEL</button>
+            </span>
+            <span class="pri">
+            <button class="cbt1" onclick="document.location='payment.html'">CONTINUE</button>
+            </span>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    </body>
+    </html>
